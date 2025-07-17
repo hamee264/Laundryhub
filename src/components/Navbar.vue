@@ -22,11 +22,11 @@
         </div>
   
         <nav :class="{ open: isMenuOpen }">
-  <router-link to="/#services" @click.native="handleLinkClick">Home</router-link>
-  <router-link to="/Location" @click.native="handleLinkClick">Location</router-link>
-  <router-link to="/Services" @click.native="handleLinkClick">Services</router-link>
-  <router-link to="/About" @click.native="handleLinkClick">About Us</router-link>
-  <router-link to="/Pricing" @click.native="handleLinkClick">Pricing</router-link>
+  <router-link to="/#services" @click="handleLinkClick">Home</router-link>
+  <router-link to="/Location" @click="handleLinkClick">Location</router-link>
+  <router-link to="/Services" @click="handleLinkClick">Services</router-link>
+  <router-link to="/About" @click="handleLinkClick">About Us</router-link>
+  <router-link to="/Pricing" @click="handleLinkClick">Pricing</router-link>
 </nav>
 
   
