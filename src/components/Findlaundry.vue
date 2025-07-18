@@ -12,7 +12,7 @@
             We make doing laundry easy with modern machines, a comfortable space, and multiple locations. Whether you're washing a few items or a big load, we’ve got everything you need for a quick and hassle-free laundry experience.
           </p>
   
-          <router-link class="location-btn" to="/contact">
+          <router-link class="location-btn" to="/Location">
             <i class="fas fa-map-marker-alt"></i> Find Your Nearest Location
           </router-link>
         </div>
