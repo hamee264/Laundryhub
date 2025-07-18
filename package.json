@@ -1,14 +1,8 @@
 {
   "name": "Laundryhub",
-  "version": "0.0.0",
-  "private": true,
-  "homepage": "https://hamee264.github.io/Laundryhub/",
-  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "build": "vite build"
   },
   "dependencies": {
     "vue": "^3.5.17",
@@ -16,7 +10,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.0",
-    "gh-pages": "^6.3.0",
     "vite": "^7.0.3"
   }
 }
