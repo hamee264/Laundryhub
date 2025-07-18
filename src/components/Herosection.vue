@@ -29,7 +29,7 @@
     </div>
 
     <div class="hero-image">
-      <video src="/src/assets/laundry.mp4" autoplay muted loop></video>
+      <video src="../assets/laundry.mp4" autoplay muted loop></video>
     </div>
   </section>
 </template>
