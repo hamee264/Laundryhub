@@ -3,7 +3,7 @@ import Herosection from './Herosection.vue';
 import Findlaundry from './Findlaundry.vue';
 import LaundryServices from './LaundryServices.vue';
 import HowitWorks from './HowitWorks.vue';
-import bensfitsVue from './bensfits.vue';
+import bensfitsVue from './Benefits.vue';
 import TestimonyVue from './Testimony.vue';
 import SpecialOfferVue from './SpecialOffer.vue';
 import FaqVue from './Faq.vue';
