@@ -29,12 +29,7 @@
     data() {
       return {
         services: [
-          // {
-          //   title: "SELF–SERVICE LAUNDRY",
-          //   image: "/src/assets/service1.png",
-          //   service:
-          //     "Use modern, high-capacity washers and dryers for a quick and smooth laundry process.",
-          // },
+          
           {
             title: "PICK & DROP SERVICE",
             image: "/src/assets/service2.png",
@@ -83,6 +78,7 @@
   /* margin: 0 auto; */
   padding: 0 20px;
   text-align: center;
+  justify-content: center;
 
 }
 
@@ -110,6 +106,7 @@
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
   

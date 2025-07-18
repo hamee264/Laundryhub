@@ -18,7 +18,7 @@
       <!-- Main Header -->
       <header>
         <div class="logo">
-          <img src="/src/assets/logo.png" alt="Logo" />
+          <img src="../assets/Logo.png" alt="Logo" />
         </div>
   
         <nav :class="{ open: isMenuOpen }">
