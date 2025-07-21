@@ -7,7 +7,7 @@ import About from '../views/About.vue';
 import Services from '../views/Services.vue';
 import Location from '../views/Location.vue';
 import Pricing from '../views/Pricing.vue';
-
+import Privacy from '../views/Privacy.vue'
 const routes = [
   { path: '/', name: 'Home', component: Home },
   { path: '/contact', name: 'Getintouch', component: Getintouch },
@@ -15,6 +15,7 @@ const routes = [
   { path: '/Services', name: 'Services', component: Services },
   { path: '/Location', name: 'Location', component: Location },
   { path: '/Pricing', name: 'Pricing', component: Pricing },
+   { path: '/privacy', name: 'PrivacyPolicy', component: Privacy },
 ];
 
 const router = createRouter({

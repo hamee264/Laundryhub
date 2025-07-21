@@ -17,6 +17,7 @@
           <li><RouterLink to="/about">About Us</RouterLink></li>
           <li><RouterLink to="/Services">Services</RouterLink></li>
           <li><RouterLink to="/contact">Contact</RouterLink></li>
+          <li><router-link to="/privacy">Privacy Policy</router-link></li>
         </ul>
       </div>
 
@@ -24,14 +25,15 @@
       <div class="footer-col">
         <h4>Contact Us</h4>
         <ul class="footer-contact">
-          <li><i class="fas fa-phone-alt"></i> +234 800 123 4567</li>
+          <li><i class="fas fa-phone-alt"></i>234 816 238 5122</li>
           <li><i class="fas fa-envelope"></i> info@laundryhub.com</li>
-          <li><i class="fas fa-map-marker-alt"></i> 24 Clean Street, Lagos, Nigeria</li>
+          <li><i class="fas fa-map-marker-alt"></i> egbe new site, Lagos, Nigeria</li>
         </ul>
         <div class="footer-socials">
           <a href="#"><i class="fab fa-facebook-f"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
+          
         </div>
       </div>
     </div>
