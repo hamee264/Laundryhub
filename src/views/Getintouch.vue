@@ -77,7 +77,7 @@ export default {
       contactInfo: [
         {
           label: "You can email us here",
-          value: "olalekan30@gmail.com",
+          value: "olalekanhameed30@gmail.com",
           icon: "fas fa-envelope",
         },
         {
