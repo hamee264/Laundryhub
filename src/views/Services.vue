@@ -64,7 +64,7 @@ const services = [
 
 .services-section {
   padding: 100px 20px;
-  background: #f6fefe;
+  /* background: #f6fefe; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

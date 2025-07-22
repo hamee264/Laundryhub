@@ -48,7 +48,7 @@ export default {
 
 .about-section {
   padding: 100px 20px;
-  background: #f9fdfd;
+  /* background: #f9fdfd; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

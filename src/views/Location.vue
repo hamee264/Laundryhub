@@ -42,7 +42,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css");
 
 .location-section {
-  background: #f6fefe;
+  /* background: #f6fefe; */
   padding: 100px 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

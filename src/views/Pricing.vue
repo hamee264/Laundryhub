@@ -63,7 +63,7 @@ const pricingPlans = [
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css");
 
 .pricing-section {
-  background: #f7fdfd;
+  /* background: #f7fdfd; */
   padding: 100px 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
