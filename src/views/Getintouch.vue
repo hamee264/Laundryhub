@@ -33,7 +33,8 @@
           Use our convenient contact form to reach out with questions, feedback,
           or collaboration inquiries.
         </p>
-        <form @submit.prevent="submitForm">
+
+        <form @submit.prevent="submitForm" action="mailto:olalekan30@gmail.com">
           <input type="text" v-model="form.name" placeholder="Name" required />
           <input
             type="email"
@@ -56,14 +57,19 @@
             <i class="fas fa-paper-plane"></i> Submit
           </button>
         </form>
+
+        <!-- ✅ Adsense Ad Here -->
+        <AdSlot />
       </div>
     </div>
   </section>
-  <Footer></Footer>
+
+  <Footer />
 </template>
-  
-  <script>
+
+<script>
 import Footer from "../components/Footer.vue";
+import AdSlot from "../components/AdSlot.vue";
 
 export default {
   data() {
@@ -71,7 +77,7 @@ export default {
       contactInfo: [
         {
           label: "You can email us here",
-          value: "hello@framergeeks.com",
+          value: "olalekan30@gmail.com",
           icon: "fas fa-envelope",
         },
         {
@@ -106,11 +112,12 @@ export default {
   },
   components: {
     Footer,
+    AdSlot,
   },
 };
 </script>
-  
-  <style scoped>
+
+<style scoped>
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css");
 
 .contact-section {
@@ -244,4 +251,3 @@ button:hover {
   }
 }
 </style>
-  

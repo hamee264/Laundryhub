@@ -2,7 +2,7 @@
   <section class="how-it-works">
     <div class="container">
       <div class="left-container">
-         <p class="subtitle"> Our Services</p>
+        <p class="subtitle">Our Services</p>
         <p class="subtext">How it works</p>
         <h1 class="title">How Our Pick & Drop Service Works</h1>
         <p class="description">
@@ -11,6 +11,9 @@
         <router-link to="/contact" class="pickup-btn">
           <i class="fas fa-truck"></i> Schedule A Pickup
         </router-link>
+
+        <!-- ✅ Ad appears only under the button -->
+        <AdSlot />
       </div>
 
       <div class="right-container">
@@ -27,8 +30,10 @@
 </template>
 
 <script>
+import AdSlot from "./AdSlot.vue";
 export default {
   name: "HowItWorks",
+  components: { AdSlot },
   data() {
     return {
       steps: [
@@ -84,27 +89,33 @@ export default {
 }
 
 .subtext {
-  font-weight: 600;
-  color: #00bfa6;
-  font-size: 0.85rem;
+  font-weight: 500;
+  color: #009e8a;
+  font-size: 1.05rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 14px;
+  letter-spacing: 1.2px;
+  margin-bottom: 18px;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 .title {
-  font-size: 2.8rem;
-  font-weight: 800;
+  font-size: 2.5rem;
+  font-weight: 900;
   color: #132c1f;
-  line-height: 1.3;
+  line-height: 1.18;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 .description {
   color: #455a64;
-  margin: 20px 0 30px;
-  font-size: 1.05rem;
-  line-height: 1.6;
-  max-width: 520px;
+  margin: 18px 0 32px;
+  font-size: 1.13rem;
+  line-height: 1.7;
+  max-width: 540px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  letter-spacing: 0.1px;
 }
 
 .pickup-btn {
@@ -112,14 +123,16 @@ export default {
   color: white;
   border: none;
   padding: 14px 28px;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.08rem;
+  font-weight: 700;
   border-radius: 10px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   gap: 10px;
   transition: 0.3s;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  letter-spacing: 0.2px;
 }
 
 .pickup-btn:hover {
@@ -133,6 +146,7 @@ export default {
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.03);
   transition: all 0.3s ease;
   border: 1px solid #546e7a;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 .step-card:hover {
@@ -141,26 +155,54 @@ export default {
 
 .step-info .step-number {
   display: inline-block;
-  font-size: 0.85rem;
+  font-size: 1.02rem;
   font-weight: 700;
   background-color: #00bfa6;
   color: white;
-  padding: 6px 14px;
-  border-radius: 6px;
-  margin-bottom: 12px;
+  padding: 7px 16px;
+  border-radius: 7px;
+  margin-bottom: 14px;
+  letter-spacing: 0.2px;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 .step-info h3 {
-  font-size: 1.25rem;
-  font-weight: 700;
+  font-size: 1.18rem;
+  font-weight: 800;
   color: #1a1a1a;
   margin-bottom: 8px;
+  letter-spacing: 0.1px;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 .step-info p {
   color: #546e7a;
-  font-size: 0.96rem;
-  line-height: 1.5;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  letter-spacing: 0.05px;
+}
+
+/* Ad Slot Styling */
+.ad-slot {
+  width: 100%;
+  min-height: 90px;
+  margin: 28px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafb;
+  border: 1.5px dashed #e0e7ef;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 12px 0;
+}
+@media (max-width: 900px) {
+  .ad-slot {
+    min-height: 60px;
+    font-size: 0.95rem;
+    margin: 20px 0 0 0;
+  }
 }
 
 /* Responsive */

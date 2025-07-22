@@ -26,7 +26,7 @@
         <h4>Contact Us</h4>
         <ul class="footer-contact">
           <li><i class="fas fa-phone-alt"></i>234 816 238 5122</li>
-          <li><i class="fas fa-envelope"></i> info@laundryhub.com</li>
+          <li><i class="fas fa-envelope"></i> olalekanhameed30@gmail.com</li>
           <li><i class="fas fa-map-marker-alt"></i> egbe new site, Lagos, Nigeria</li>
         </ul>
         <div class="footer-socials">

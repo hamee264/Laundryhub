@@ -36,7 +36,7 @@
 
       <h2>Contact Us</h2>
       <p>
-        If you have any questions or concerns about this Privacy Policy, please reach out to us at <a href="mailto:info@sunamaka.com">info@sunamaka.com</a>. We're here to help!
+        If you have any questions or concerns about this Privacy Policy, please reach out to us at <a href="mailto:olalekanhameed30@gmail.com">olalekanhameed30@gmail.com</a>. We're here to help!
       </p>
     </div>
   </section>

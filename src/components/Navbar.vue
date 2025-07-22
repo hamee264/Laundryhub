@@ -6,8 +6,8 @@
           <a href="tel:+2348001234567">
             <i class="fas fa-phone-alt"></i> +234 816 238 5122
           </a>
-          <a href="mailto:info@yourplumbing.com">
-            <i class="fas fa-envelope"></i> info@yourplumbing.com
+          <a href="mailto:olalekanhameed30@gmail.com">
+            <i class="fas fa-envelope"></i> olalekanhameed30@gmail.com
           </a>
         </div>
       </div>
