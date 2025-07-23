@@ -3,7 +3,7 @@ import Herosection from './Herosection.vue';
 import Findlaundry from './Findlaundry.vue';
 import LaundryServices from './LaundryServices.vue';
 import HowitWorks from './HowitWorks.vue';
-import Adslot from './Adslot.vue';
+
 import bensfitsVue from './Benefits.vue';
 import TestimonyVue from './Testimony.vue';
 import SpecialOfferVue from './SpecialOffer.vue';
@@ -16,7 +16,7 @@ import Footer from './Footer.vue';
   <Findlaundry />
   <LaundryServices />
   <HowitWorks></HowitWorks>
-  <Adslot></Adslot>
+
   <bensfitsVue></bensfitsVue>
   <TestimonyVue></TestimonyVue>
   <SpecialOfferVue></SpecialOfferVue>

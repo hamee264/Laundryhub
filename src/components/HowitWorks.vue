@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import AdSlot from "./AdSlot.vue";
+import AdSlot from "./Adslot.vue";
 export default {
   name: "HowItWorks",
   components: { AdSlot },
