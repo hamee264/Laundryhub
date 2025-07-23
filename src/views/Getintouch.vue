@@ -69,7 +69,7 @@
 
 <script>
 import Footer from "../components/Footer.vue";
-import AdSlot from "../components/AdSlot.vue";
+import AdSlot from "../components/Adslot.vue";
 
 export default {
   data() {
